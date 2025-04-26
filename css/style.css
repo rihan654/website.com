@@ -1,0 +1,126 @@
+.navigation{
+     display: flex;
+     color:white;
+     justify-content: space-between; 
+     background-color:rgba(0, 0, 0, 0.6);
+     }
+    
+     .navigation div{
+        padding-top: 10px;
+        
+     }
+     .corner{
+        font-size: 30;
+        font-weight:600;
+        padding-top: 20px;
+        padding-right: 10px;
+     }
+     .navigation a{text-decoration: none;
+     color:bisque;
+     float: left;
+     padding: 10px;
+    
+}
+body{
+    margin: 0;
+    padding: 0px;
+    overflow: 0px;
+}
+header{
+    background-image: url('../images/img1.jpg');
+     background-size: cover;
+     background-color:rgba(0,0,0,0.4);
+     background-blend-mode: multiply;
+}
+.content{    
+    padding-left:50px;
+    padding-top: 50px;
+    padding-bottom: 180px;
+    color: whitesmoke;
+}
+.info{padding-top: 10px;
+    font-size: 20;
+
+    
+}
+.upperText,.upperText2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+}
+.upperText2{font-size: 12px;
+    color: black;
+    
+
+}
+.hr{width:40%;
+    margin:0;
+    padding:0;
+    margin-top:30px;
+}
+.grid{display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    column-gap: 20px;
+    
+}
+.bold{text-decoration-thickness:2;
+    
+
+}
+.margin{padding-top: 80px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.marginsmall{
+    margin-top: 10px;
+    font-size:10px ;
+}
+.divider{
+    border: 1px solid lightgray;
+    height:100%;
+
+}
+.img{display: flex;
+    padding-left: 180px;
+    padding-right: 100px;
+    padding-top: 50px;
+    column-gap: 10px;
+}
+.bluearea{height: 400px;
+    width: auto;
+    background-color: rgb(0, 0, 123);
+    margin: -80px;
+}
+.dimention img{height:auto;
+    width: 175px;
+}
+.uppertextwhite{color:blanchedalmond;
+    text-transform: uppercase;
+}
+.padding{padding-left: 250px;
+    padding-top: 200px;
+    font-size:30px;
+}
+.padding2{padding-left: 250px;
+    padding-top: 20px;
+    text-transform: capitalize;
+
+}
+.blueareaicon{
+    width: 100px;
+    height: 100px;
+    margin-left: 80%;
+    margin-top:-80px;
+   
+}
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo div{
+   
+    display: flex;
+    padding-right: 2px;
+    padding-left: 20px;
+    float: left;
+}
